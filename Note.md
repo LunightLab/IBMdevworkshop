@@ -157,7 +157,8 @@ Kubernetes와 Docker Swarm 등이 있다.
 **Kubernetes 아키텍쳐**  
 <p align="center"><img src="./images/Kubernetes-archetecture.png" width="700" height="400"></p>
 
-###참고자료  
+### 참고자료
+
 > [IBM 쿠버네티스 강의](https://www.youtube.com/watch?v=l42GttmnnZ4&list=PLKQw1Ska3hjpnFBbQJJrnJIUE062OCyKo#action=share)  
 > [kubernetes](https://kubernetes.io/)
 
