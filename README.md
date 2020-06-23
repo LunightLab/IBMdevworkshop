@@ -29,7 +29,8 @@ Date
 Contents
 --------
 
--	**[Note]()**  
+-	[Note](https://github.com/LunightLab/IBMdevworkshop/blob/master/Note.md)  
+-	[실습](https://github.com/LunightLab/IBMdevworkshop/blob/master/Practice.md)  
 
 <!--  
  - [0.Basic]()  

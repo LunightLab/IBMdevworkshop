@@ -7,12 +7,6 @@
     </a>
 </div>
 
-<div align=right>
-    <a href="https://github.com/LunightLab">
-        <img alt="author" src= "https://img.shields.io/badge/author-lunight-blue?style=glat-square" target="_blank"></a>
-    </a>
-</div>
-
 Note
 ====
 
