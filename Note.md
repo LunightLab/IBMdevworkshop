@@ -84,22 +84,25 @@ MSA의 반대 개념은 Monolithic Architecture(소프트웨어의 모든 구성
 - 테스트/ 트랜잭션 : 서비스가 분리되어 있기 때문에 테스트와 트랜젝션의 복잡함이 증가하고 많은 리소스가 필요  
 - 데이터 관리 : 데이터가 여러 서비스에 걸쳐 분산되기 때문에 조회가 어렵고 관리가 어렵다.
 
-###DevOps  
-- Dev(개발)과 Ops(운용)이 긴밀한 협조 및 연계하여 **비즈니스 측면의 가치를 높이는 근무 방식과 문화**. 일하는 방법으로 개발에 한정된 방법론이 아니라, 팀 빌딩(Team Building), 개발 프로세스 설계 등의 조직 구성, 문화까지 포함되어 있는 사고방식을 의미  
-- 애자일(Agile)방법론에서 운용과제를 해결하기 위해 개선된 조직문화를 의미.  
-- Grafana 모니터링 툴을 꼭 사용해보자
+### DevOps
 
-###Containers  
-- 독립된 소프트웨어 컨셉  
-- Linux Container(isolate 기술)을 활용하여 도커가 개발됨.  
-- 컨테이너 런타임(Docker) : 컨테이너가 실행하고 핸들링해주는 시스템
+-	Dev(개발)과 Ops(운용)이 긴밀한 협조 및 연계하여 **비즈니스 측면의 가치를 높이는 근무 방식과 문화**. 일하는 방법으로 개발에 한정된 방법론이 아니라, 팀 빌딩(Team Building), 개발 프로세스 설계 등의 조직 구성, 문화까지 포함되어 있는 사고방식을 의미  
+-	애자일(Agile)방법론에서 운용과제를 해결하기 위해 개선된 조직문화를 의미.  
+-	Grafana 모니터링 툴을 꼭 사용해보자
 
-###Container Image  
-- Read-Only Image 생성  
-- bootfs를 kernel level로 공유  
-- Image registry에서 Container Image 관리
+### Containers
 
-###Kubernetes
+-	독립된 소프트웨어 컨셉  
+-	Linux Container(isolate 기술)을 활용하여 도커가 개발됨.  
+-	컨테이너 런타임(Docker) : 컨테이너가 실행하고 핸들링해주는 시스템
+
+### Container Image
+
+-	Read-Only Image 생성  
+-	bootfs를 kernel level로 공유  
+-	Image registry에서 Container Image 관리
+
+### Kubernetes
 
 **Container Orchestration**  
 **<div align=center> "Container+Container+Container+Container+Container+Container.... 관리" </div>**  
